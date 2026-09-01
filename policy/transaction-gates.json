@@ -1,0 +1,8 @@
+{
+  "schema": "ma.transaction-gates.v1",
+  "day1_required": ["identity", "payroll", "order-to-cash", "customer-support", "site-connectivity", "incident-response", "recovery"],
+  "tsa_exit_required": ["owner-approved", "dependencies-ready", "acceptance-tested", "data-reconciled", "rollback-recorded", "access-removed"],
+  "human_approval_required": ["legal-entity-data-transfer", "privileged-identity-change", "dns-or-tenant-cutover", "erp-separation", "asset-retirement", "tsa-acceptance"],
+  "prohibited": ["llm-direct-production-change", "unowned-asset-decommission", "former-parent-privileged-access-after-exit", "unreconciled-data-destruction"]
+}
+

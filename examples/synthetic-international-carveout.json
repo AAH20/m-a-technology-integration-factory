@@ -1,0 +1,2927 @@
+{
+  "assets": [
+    {
+      "id": "asset-000",
+      "name": "identity-000",
+      "domain": "identity",
+      "owner": "owner-00",
+      "legal_entity": "newco-eu",
+      "business_capability": "employee-access",
+      "criticality": "critical",
+      "annual_cost_usd": 18000.0,
+      "standalone_cost_usd": 14000.0,
+      "data_classification": "restricted",
+      "shared_with_parent": true,
+      "day1_required": true,
+      "dependencies": []
+    },
+    {
+      "id": "asset-001",
+      "name": "network-001",
+      "domain": "network",
+      "owner": "owner-01",
+      "legal_entity": "newco-uk",
+      "business_capability": "site-connectivity",
+      "criticality": "critical",
+      "annual_cost_usd": 24000.0,
+      "standalone_cost_usd": 18800.0,
+      "data_classification": "internal",
+      "shared_with_parent": true,
+      "day1_required": true,
+      "dependencies": []
+    },
+    {
+      "id": "asset-002",
+      "name": "erp-002",
+      "domain": "erp",
+      "owner": "owner-02",
+      "legal_entity": "newco-uk",
+      "business_capability": "order-to-cash",
+      "criticality": "critical",
+      "annual_cost_usd": 30000.0,
+      "standalone_cost_usd": 23600.0,
+      "data_classification": "restricted",
+      "shared_with_parent": true,
+      "day1_required": true,
+      "dependencies": []
+    },
+    {
+      "id": "asset-003",
+      "name": "crm-003",
+      "domain": "crm",
+      "owner": "owner-03",
+      "legal_entity": "newco-eu",
+      "business_capability": "customer-service",
+      "criticality": "critical",
+      "annual_cost_usd": 36000.0,
+      "standalone_cost_usd": 28400.0,
+      "data_classification": "internal",
+      "shared_with_parent": true,
+      "day1_required": true,
+      "dependencies": []
+    },
+    {
+      "id": "asset-004",
+      "name": "data-004",
+      "domain": "data",
+      "owner": "owner-04",
+      "legal_entity": "newco-uk",
+      "business_capability": "reporting",
+      "criticality": "critical",
+      "annual_cost_usd": 42000.0,
+      "standalone_cost_usd": 33200.0,
+      "data_classification": "restricted",
+      "shared_with_parent": true,
+      "day1_required": true,
+      "dependencies": []
+    },
+    {
+      "id": "asset-005",
+      "name": "cloud-005",
+      "domain": "cloud",
+      "owner": "owner-05",
+      "legal_entity": "newco-uk",
+      "business_capability": "hosting",
+      "criticality": "critical",
+      "annual_cost_usd": 48000.0,
+      "standalone_cost_usd": 38000.0,
+      "data_classification": "internal",
+      "shared_with_parent": true,
+      "day1_required": true,
+      "dependencies": []
+    },
+    {
+      "id": "asset-006",
+      "name": "endpoint-006",
+      "domain": "endpoint",
+      "owner": "owner-06",
+      "legal_entity": "newco-eu",
+      "business_capability": "workplace",
+      "criticality": "critical",
+      "annual_cost_usd": 54000.0,
+      "standalone_cost_usd": 42800.0,
+      "data_classification": "internal",
+      "shared_with_parent": true,
+      "day1_required": true,
+      "dependencies": []
+    },
+    {
+      "id": "asset-007",
+      "name": "security-007",
+      "domain": "security",
+      "owner": "owner-07",
+      "legal_entity": "newco-uk",
+      "business_capability": "incident-response",
+      "criticality": "critical",
+      "annual_cost_usd": 60000.0,
+      "standalone_cost_usd": 47600.0,
+      "data_classification": "internal",
+      "shared_with_parent": true,
+      "day1_required": true,
+      "dependencies": []
+    },
+    {
+      "id": "asset-008",
+      "name": "collaboration-008",
+      "domain": "collaboration",
+      "owner": "owner-08",
+      "legal_entity": "newco-uk",
+      "business_capability": "communications",
+      "criticality": "critical",
+      "annual_cost_usd": 18000.0,
+      "standalone_cost_usd": 14000.0,
+      "data_classification": "internal",
+      "shared_with_parent": true,
+      "day1_required": true,
+      "dependencies": []
+    },
+    {
+      "id": "asset-009",
+      "name": "operations-009",
+      "domain": "operations",
+      "owner": "owner-09",
+      "legal_entity": "newco-eu",
+      "business_capability": "service-management",
+      "criticality": "critical",
+      "annual_cost_usd": 24000.0,
+      "standalone_cost_usd": 18800.0,
+      "data_classification": "internal",
+      "shared_with_parent": true,
+      "day1_required": true,
+      "dependencies": []
+    },
+    {
+      "id": "asset-010",
+      "name": "identity-010",
+      "domain": "identity",
+      "owner": "owner-10",
+      "legal_entity": "newco-uk",
+      "business_capability": "employee-access",
+      "criticality": "standard",
+      "annual_cost_usd": 30000.0,
+      "standalone_cost_usd": 23600.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": true,
+      "dependencies": [
+        "asset-000"
+      ]
+    },
+    {
+      "id": "asset-011",
+      "name": "network-011",
+      "domain": "network",
+      "owner": "owner-11",
+      "legal_entity": "newco-uk",
+      "business_capability": "site-connectivity",
+      "criticality": "standard",
+      "annual_cost_usd": 36000.0,
+      "standalone_cost_usd": 28400.0,
+      "data_classification": "internal",
+      "shared_with_parent": true,
+      "day1_required": true,
+      "dependencies": [
+        "asset-001"
+      ]
+    },
+    {
+      "id": "asset-012",
+      "name": "erp-012",
+      "domain": "erp",
+      "owner": "owner-12",
+      "legal_entity": "newco-eu",
+      "business_capability": "order-to-cash",
+      "criticality": "standard",
+      "annual_cost_usd": 42000.0,
+      "standalone_cost_usd": 33200.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": true,
+      "dependencies": [
+        "asset-002"
+      ]
+    },
+    {
+      "id": "asset-013",
+      "name": "crm-013",
+      "domain": "crm",
+      "owner": "owner-13",
+      "legal_entity": "newco-uk",
+      "business_capability": "customer-service",
+      "criticality": "standard",
+      "annual_cost_usd": 48000.0,
+      "standalone_cost_usd": 38000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": true,
+      "dependencies": [
+        "asset-003"
+      ]
+    },
+    {
+      "id": "asset-014",
+      "name": "data-014",
+      "domain": "data",
+      "owner": "owner-00",
+      "legal_entity": "newco-uk",
+      "business_capability": "reporting",
+      "criticality": "standard",
+      "annual_cost_usd": 54000.0,
+      "standalone_cost_usd": 42800.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": true,
+      "dependencies": [
+        "asset-004"
+      ]
+    },
+    {
+      "id": "asset-015",
+      "name": "cloud-015",
+      "domain": "cloud",
+      "owner": "owner-01",
+      "legal_entity": "newco-eu",
+      "business_capability": "hosting",
+      "criticality": "standard",
+      "annual_cost_usd": 60000.0,
+      "standalone_cost_usd": 47600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": true,
+      "dependencies": [
+        "asset-005"
+      ]
+    },
+    {
+      "id": "asset-016",
+      "name": "endpoint-016",
+      "domain": "endpoint",
+      "owner": "owner-02",
+      "legal_entity": "newco-uk",
+      "business_capability": "workplace",
+      "criticality": "standard",
+      "annual_cost_usd": 18000.0,
+      "standalone_cost_usd": 14000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": true,
+      "dependencies": [
+        "asset-006"
+      ]
+    },
+    {
+      "id": "asset-017",
+      "name": "security-017",
+      "domain": "security",
+      "owner": "owner-03",
+      "legal_entity": "newco-uk",
+      "business_capability": "incident-response",
+      "criticality": "critical",
+      "annual_cost_usd": 24000.0,
+      "standalone_cost_usd": 18800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": true,
+      "dependencies": [
+        "asset-007"
+      ]
+    },
+    {
+      "id": "asset-018",
+      "name": "collaboration-018",
+      "domain": "collaboration",
+      "owner": "owner-04",
+      "legal_entity": "newco-eu",
+      "business_capability": "communications",
+      "criticality": "standard",
+      "annual_cost_usd": 30000.0,
+      "standalone_cost_usd": 23600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": true,
+      "dependencies": [
+        "asset-008"
+      ]
+    },
+    {
+      "id": "asset-019",
+      "name": "operations-019",
+      "domain": "operations",
+      "owner": "owner-05",
+      "legal_entity": "newco-uk",
+      "business_capability": "service-management",
+      "criticality": "standard",
+      "annual_cost_usd": 36000.0,
+      "standalone_cost_usd": 28400.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": true,
+      "dependencies": [
+        "asset-009"
+      ]
+    },
+    {
+      "id": "asset-020",
+      "name": "identity-020",
+      "domain": "identity",
+      "owner": "owner-06",
+      "legal_entity": "newco-uk",
+      "business_capability": "employee-access",
+      "criticality": "standard",
+      "annual_cost_usd": 42000.0,
+      "standalone_cost_usd": 33200.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": true,
+      "dependencies": [
+        "asset-000"
+      ]
+    },
+    {
+      "id": "asset-021",
+      "name": "network-021",
+      "domain": "network",
+      "owner": "owner-07",
+      "legal_entity": "newco-eu",
+      "business_capability": "site-connectivity",
+      "criticality": "standard",
+      "annual_cost_usd": 48000.0,
+      "standalone_cost_usd": 38000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": true,
+      "dependencies": [
+        "asset-001"
+      ]
+    },
+    {
+      "id": "asset-022",
+      "name": "erp-022",
+      "domain": "erp",
+      "owner": "owner-08",
+      "legal_entity": "newco-uk",
+      "business_capability": "order-to-cash",
+      "criticality": "standard",
+      "annual_cost_usd": 54000.0,
+      "standalone_cost_usd": 42800.0,
+      "data_classification": "restricted",
+      "shared_with_parent": true,
+      "day1_required": true,
+      "dependencies": [
+        "asset-002"
+      ]
+    },
+    {
+      "id": "asset-023",
+      "name": "crm-023",
+      "domain": "crm",
+      "owner": "owner-09",
+      "legal_entity": "newco-uk",
+      "business_capability": "customer-service",
+      "criticality": "standard",
+      "annual_cost_usd": 60000.0,
+      "standalone_cost_usd": 47600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": true,
+      "dependencies": [
+        "asset-003"
+      ]
+    },
+    {
+      "id": "asset-024",
+      "name": "data-024",
+      "domain": "data",
+      "owner": "owner-10",
+      "legal_entity": "newco-eu",
+      "business_capability": "reporting",
+      "criticality": "standard",
+      "annual_cost_usd": 18000.0,
+      "standalone_cost_usd": 14000.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": true,
+      "dependencies": [
+        "asset-004"
+      ]
+    },
+    {
+      "id": "asset-025",
+      "name": "cloud-025",
+      "domain": "cloud",
+      "owner": "owner-11",
+      "legal_entity": "newco-uk",
+      "business_capability": "hosting",
+      "criticality": "standard",
+      "annual_cost_usd": 24000.0,
+      "standalone_cost_usd": 18800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-005"
+      ]
+    },
+    {
+      "id": "asset-026",
+      "name": "endpoint-026",
+      "domain": "endpoint",
+      "owner": "owner-12",
+      "legal_entity": "newco-uk",
+      "business_capability": "workplace",
+      "criticality": "standard",
+      "annual_cost_usd": 30000.0,
+      "standalone_cost_usd": 23600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-006"
+      ]
+    },
+    {
+      "id": "asset-027",
+      "name": "security-027",
+      "domain": "security",
+      "owner": "owner-13",
+      "legal_entity": "newco-eu",
+      "business_capability": "incident-response",
+      "criticality": "standard",
+      "annual_cost_usd": 36000.0,
+      "standalone_cost_usd": 28400.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-007"
+      ]
+    },
+    {
+      "id": "asset-028",
+      "name": "collaboration-028",
+      "domain": "collaboration",
+      "owner": "owner-00",
+      "legal_entity": "newco-uk",
+      "business_capability": "communications",
+      "criticality": "standard",
+      "annual_cost_usd": 42000.0,
+      "standalone_cost_usd": 33200.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-008"
+      ]
+    },
+    {
+      "id": "asset-029",
+      "name": "operations-029",
+      "domain": "operations",
+      "owner": "owner-01",
+      "legal_entity": "newco-uk",
+      "business_capability": "service-management",
+      "criticality": "standard",
+      "annual_cost_usd": 48000.0,
+      "standalone_cost_usd": 38000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-009"
+      ]
+    },
+    {
+      "id": "asset-030",
+      "name": "identity-030",
+      "domain": "identity",
+      "owner": "owner-02",
+      "legal_entity": "newco-eu",
+      "business_capability": "employee-access",
+      "criticality": "standard",
+      "annual_cost_usd": 54000.0,
+      "standalone_cost_usd": 42800.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-000"
+      ]
+    },
+    {
+      "id": "asset-031",
+      "name": "network-031",
+      "domain": "network",
+      "owner": "owner-03",
+      "legal_entity": "newco-uk",
+      "business_capability": "site-connectivity",
+      "criticality": "standard",
+      "annual_cost_usd": 60000.0,
+      "standalone_cost_usd": 47600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-001"
+      ]
+    },
+    {
+      "id": "asset-032",
+      "name": "erp-032",
+      "domain": "erp",
+      "owner": "owner-04",
+      "legal_entity": "newco-uk",
+      "business_capability": "order-to-cash",
+      "criticality": "standard",
+      "annual_cost_usd": 18000.0,
+      "standalone_cost_usd": 14000.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-002"
+      ]
+    },
+    {
+      "id": "asset-033",
+      "name": "crm-033",
+      "domain": "crm",
+      "owner": "owner-05",
+      "legal_entity": "newco-eu",
+      "business_capability": "customer-service",
+      "criticality": "standard",
+      "annual_cost_usd": 24000.0,
+      "standalone_cost_usd": 18800.0,
+      "data_classification": "internal",
+      "shared_with_parent": true,
+      "day1_required": false,
+      "dependencies": [
+        "asset-003"
+      ]
+    },
+    {
+      "id": "asset-034",
+      "name": "data-034",
+      "domain": "data",
+      "owner": "owner-06",
+      "legal_entity": "newco-uk",
+      "business_capability": "reporting",
+      "criticality": "critical",
+      "annual_cost_usd": 30000.0,
+      "standalone_cost_usd": 23600.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-004"
+      ]
+    },
+    {
+      "id": "asset-035",
+      "name": "cloud-035",
+      "domain": "cloud",
+      "owner": "owner-07",
+      "legal_entity": "newco-uk",
+      "business_capability": "hosting",
+      "criticality": "standard",
+      "annual_cost_usd": 36000.0,
+      "standalone_cost_usd": 28400.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-005"
+      ]
+    },
+    {
+      "id": "asset-036",
+      "name": "endpoint-036",
+      "domain": "endpoint",
+      "owner": "owner-08",
+      "legal_entity": "newco-eu",
+      "business_capability": "workplace",
+      "criticality": "standard",
+      "annual_cost_usd": 42000.0,
+      "standalone_cost_usd": 33200.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-006"
+      ]
+    },
+    {
+      "id": "asset-037",
+      "name": "security-037",
+      "domain": "security",
+      "owner": "owner-09",
+      "legal_entity": "newco-uk",
+      "business_capability": "incident-response",
+      "criticality": "standard",
+      "annual_cost_usd": 48000.0,
+      "standalone_cost_usd": 38000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-007"
+      ]
+    },
+    {
+      "id": "asset-038",
+      "name": "collaboration-038",
+      "domain": "collaboration",
+      "owner": "owner-10",
+      "legal_entity": "newco-uk",
+      "business_capability": "communications",
+      "criticality": "standard",
+      "annual_cost_usd": 54000.0,
+      "standalone_cost_usd": 42800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-008"
+      ]
+    },
+    {
+      "id": "asset-039",
+      "name": "operations-039",
+      "domain": "operations",
+      "owner": "owner-11",
+      "legal_entity": "newco-eu",
+      "business_capability": "service-management",
+      "criticality": "standard",
+      "annual_cost_usd": 60000.0,
+      "standalone_cost_usd": 47600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-009"
+      ]
+    },
+    {
+      "id": "asset-040",
+      "name": "identity-040",
+      "domain": "identity",
+      "owner": "owner-12",
+      "legal_entity": "newco-uk",
+      "business_capability": "employee-access",
+      "criticality": "standard",
+      "annual_cost_usd": 18000.0,
+      "standalone_cost_usd": 14000.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-000"
+      ]
+    },
+    {
+      "id": "asset-041",
+      "name": "network-041",
+      "domain": "network",
+      "owner": "owner-13",
+      "legal_entity": "newco-uk",
+      "business_capability": "site-connectivity",
+      "criticality": "standard",
+      "annual_cost_usd": 24000.0,
+      "standalone_cost_usd": 18800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-001"
+      ]
+    },
+    {
+      "id": "asset-042",
+      "name": "erp-042",
+      "domain": "erp",
+      "owner": "owner-00",
+      "legal_entity": "newco-eu",
+      "business_capability": "order-to-cash",
+      "criticality": "standard",
+      "annual_cost_usd": 30000.0,
+      "standalone_cost_usd": 23600.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-002"
+      ]
+    },
+    {
+      "id": "asset-043",
+      "name": "crm-043",
+      "domain": "crm",
+      "owner": "owner-01",
+      "legal_entity": "newco-uk",
+      "business_capability": "customer-service",
+      "criticality": "standard",
+      "annual_cost_usd": 36000.0,
+      "standalone_cost_usd": 28400.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-003"
+      ]
+    },
+    {
+      "id": "asset-044",
+      "name": "data-044",
+      "domain": "data",
+      "owner": "owner-02",
+      "legal_entity": "newco-uk",
+      "business_capability": "reporting",
+      "criticality": "standard",
+      "annual_cost_usd": 42000.0,
+      "standalone_cost_usd": 33200.0,
+      "data_classification": "restricted",
+      "shared_with_parent": true,
+      "day1_required": false,
+      "dependencies": [
+        "asset-004"
+      ]
+    },
+    {
+      "id": "asset-045",
+      "name": "cloud-045",
+      "domain": "cloud",
+      "owner": "owner-03",
+      "legal_entity": "newco-eu",
+      "business_capability": "hosting",
+      "criticality": "standard",
+      "annual_cost_usd": 48000.0,
+      "standalone_cost_usd": 38000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-005"
+      ]
+    },
+    {
+      "id": "asset-046",
+      "name": "endpoint-046",
+      "domain": "endpoint",
+      "owner": "owner-04",
+      "legal_entity": "newco-uk",
+      "business_capability": "workplace",
+      "criticality": "standard",
+      "annual_cost_usd": 54000.0,
+      "standalone_cost_usd": 42800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-006"
+      ]
+    },
+    {
+      "id": "asset-047",
+      "name": "security-047",
+      "domain": "security",
+      "owner": "owner-05",
+      "legal_entity": "newco-uk",
+      "business_capability": "incident-response",
+      "criticality": "standard",
+      "annual_cost_usd": 60000.0,
+      "standalone_cost_usd": 47600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-007"
+      ]
+    },
+    {
+      "id": "asset-048",
+      "name": "collaboration-048",
+      "domain": "collaboration",
+      "owner": "owner-06",
+      "legal_entity": "newco-eu",
+      "business_capability": "communications",
+      "criticality": "standard",
+      "annual_cost_usd": 18000.0,
+      "standalone_cost_usd": 14000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-008"
+      ]
+    },
+    {
+      "id": "asset-049",
+      "name": "operations-049",
+      "domain": "operations",
+      "owner": "owner-07",
+      "legal_entity": "newco-uk",
+      "business_capability": "service-management",
+      "criticality": "standard",
+      "annual_cost_usd": 24000.0,
+      "standalone_cost_usd": 18800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-009"
+      ]
+    },
+    {
+      "id": "asset-050",
+      "name": "identity-050",
+      "domain": "identity",
+      "owner": "owner-08",
+      "legal_entity": "newco-uk",
+      "business_capability": "employee-access",
+      "criticality": "standard",
+      "annual_cost_usd": 30000.0,
+      "standalone_cost_usd": 23600.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-000"
+      ]
+    },
+    {
+      "id": "asset-051",
+      "name": "network-051",
+      "domain": "network",
+      "owner": "owner-09",
+      "legal_entity": "newco-eu",
+      "business_capability": "site-connectivity",
+      "criticality": "critical",
+      "annual_cost_usd": 36000.0,
+      "standalone_cost_usd": 28400.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-001"
+      ]
+    },
+    {
+      "id": "asset-052",
+      "name": "erp-052",
+      "domain": "erp",
+      "owner": "owner-10",
+      "legal_entity": "newco-uk",
+      "business_capability": "order-to-cash",
+      "criticality": "standard",
+      "annual_cost_usd": 42000.0,
+      "standalone_cost_usd": 33200.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-002"
+      ]
+    },
+    {
+      "id": "asset-053",
+      "name": "crm-053",
+      "domain": "crm",
+      "owner": "owner-11",
+      "legal_entity": "newco-uk",
+      "business_capability": "customer-service",
+      "criticality": "standard",
+      "annual_cost_usd": 48000.0,
+      "standalone_cost_usd": 38000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-003"
+      ]
+    },
+    {
+      "id": "asset-054",
+      "name": "data-054",
+      "domain": "data",
+      "owner": "owner-12",
+      "legal_entity": "newco-eu",
+      "business_capability": "reporting",
+      "criticality": "standard",
+      "annual_cost_usd": 54000.0,
+      "standalone_cost_usd": 42800.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-004"
+      ]
+    },
+    {
+      "id": "asset-055",
+      "name": "cloud-055",
+      "domain": "cloud",
+      "owner": "owner-13",
+      "legal_entity": "newco-uk",
+      "business_capability": "hosting",
+      "criticality": "standard",
+      "annual_cost_usd": 60000.0,
+      "standalone_cost_usd": 47600.0,
+      "data_classification": "internal",
+      "shared_with_parent": true,
+      "day1_required": false,
+      "dependencies": [
+        "asset-005"
+      ]
+    },
+    {
+      "id": "asset-056",
+      "name": "endpoint-056",
+      "domain": "endpoint",
+      "owner": "owner-00",
+      "legal_entity": "newco-uk",
+      "business_capability": "workplace",
+      "criticality": "standard",
+      "annual_cost_usd": 18000.0,
+      "standalone_cost_usd": 14000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-006"
+      ]
+    },
+    {
+      "id": "asset-057",
+      "name": "security-057",
+      "domain": "security",
+      "owner": "owner-01",
+      "legal_entity": "newco-eu",
+      "business_capability": "incident-response",
+      "criticality": "standard",
+      "annual_cost_usd": 24000.0,
+      "standalone_cost_usd": 18800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-007"
+      ]
+    },
+    {
+      "id": "asset-058",
+      "name": "collaboration-058",
+      "domain": "collaboration",
+      "owner": "owner-02",
+      "legal_entity": "newco-uk",
+      "business_capability": "communications",
+      "criticality": "standard",
+      "annual_cost_usd": 30000.0,
+      "standalone_cost_usd": 23600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-008"
+      ]
+    },
+    {
+      "id": "asset-059",
+      "name": "operations-059",
+      "domain": "operations",
+      "owner": "owner-03",
+      "legal_entity": "newco-uk",
+      "business_capability": "service-management",
+      "criticality": "standard",
+      "annual_cost_usd": 36000.0,
+      "standalone_cost_usd": 28400.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-009"
+      ]
+    },
+    {
+      "id": "asset-060",
+      "name": "identity-060",
+      "domain": "identity",
+      "owner": "owner-04",
+      "legal_entity": "newco-eu",
+      "business_capability": "employee-access",
+      "criticality": "standard",
+      "annual_cost_usd": 42000.0,
+      "standalone_cost_usd": 33200.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-000"
+      ]
+    },
+    {
+      "id": "asset-061",
+      "name": "network-061",
+      "domain": "network",
+      "owner": "owner-05",
+      "legal_entity": "newco-uk",
+      "business_capability": "site-connectivity",
+      "criticality": "standard",
+      "annual_cost_usd": 48000.0,
+      "standalone_cost_usd": 38000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-001"
+      ]
+    },
+    {
+      "id": "asset-062",
+      "name": "erp-062",
+      "domain": "erp",
+      "owner": "owner-06",
+      "legal_entity": "newco-uk",
+      "business_capability": "order-to-cash",
+      "criticality": "standard",
+      "annual_cost_usd": 54000.0,
+      "standalone_cost_usd": 42800.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-002"
+      ]
+    },
+    {
+      "id": "asset-063",
+      "name": "crm-063",
+      "domain": "crm",
+      "owner": "owner-07",
+      "legal_entity": "newco-eu",
+      "business_capability": "customer-service",
+      "criticality": "standard",
+      "annual_cost_usd": 60000.0,
+      "standalone_cost_usd": 47600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-003"
+      ]
+    },
+    {
+      "id": "asset-064",
+      "name": "data-064",
+      "domain": "data",
+      "owner": "owner-08",
+      "legal_entity": "newco-uk",
+      "business_capability": "reporting",
+      "criticality": "standard",
+      "annual_cost_usd": 18000.0,
+      "standalone_cost_usd": 14000.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-004"
+      ]
+    },
+    {
+      "id": "asset-065",
+      "name": "cloud-065",
+      "domain": "cloud",
+      "owner": "owner-09",
+      "legal_entity": "newco-uk",
+      "business_capability": "hosting",
+      "criticality": "standard",
+      "annual_cost_usd": 24000.0,
+      "standalone_cost_usd": 18800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-005"
+      ]
+    },
+    {
+      "id": "asset-066",
+      "name": "endpoint-066",
+      "domain": "endpoint",
+      "owner": "owner-10",
+      "legal_entity": "newco-eu",
+      "business_capability": "workplace",
+      "criticality": "standard",
+      "annual_cost_usd": 30000.0,
+      "standalone_cost_usd": 23600.0,
+      "data_classification": "internal",
+      "shared_with_parent": true,
+      "day1_required": false,
+      "dependencies": [
+        "asset-006"
+      ]
+    },
+    {
+      "id": "asset-067",
+      "name": "security-067",
+      "domain": "security",
+      "owner": "owner-11",
+      "legal_entity": "newco-uk",
+      "business_capability": "incident-response",
+      "criticality": "standard",
+      "annual_cost_usd": 36000.0,
+      "standalone_cost_usd": 28400.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-007"
+      ]
+    },
+    {
+      "id": "asset-068",
+      "name": "collaboration-068",
+      "domain": "collaboration",
+      "owner": "owner-12",
+      "legal_entity": "newco-uk",
+      "business_capability": "communications",
+      "criticality": "critical",
+      "annual_cost_usd": 42000.0,
+      "standalone_cost_usd": 33200.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-008"
+      ]
+    },
+    {
+      "id": "asset-069",
+      "name": "operations-069",
+      "domain": "operations",
+      "owner": "owner-13",
+      "legal_entity": "newco-eu",
+      "business_capability": "service-management",
+      "criticality": "standard",
+      "annual_cost_usd": 48000.0,
+      "standalone_cost_usd": 38000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-009"
+      ]
+    },
+    {
+      "id": "asset-070",
+      "name": "identity-070",
+      "domain": "identity",
+      "owner": "owner-00",
+      "legal_entity": "newco-uk",
+      "business_capability": "employee-access",
+      "criticality": "standard",
+      "annual_cost_usd": 54000.0,
+      "standalone_cost_usd": 42800.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-000"
+      ]
+    },
+    {
+      "id": "asset-071",
+      "name": "network-071",
+      "domain": "network",
+      "owner": "owner-01",
+      "legal_entity": "newco-uk",
+      "business_capability": "site-connectivity",
+      "criticality": "standard",
+      "annual_cost_usd": 60000.0,
+      "standalone_cost_usd": 47600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-001"
+      ]
+    },
+    {
+      "id": "asset-072",
+      "name": "erp-072",
+      "domain": "erp",
+      "owner": "owner-02",
+      "legal_entity": "newco-eu",
+      "business_capability": "order-to-cash",
+      "criticality": "standard",
+      "annual_cost_usd": 18000.0,
+      "standalone_cost_usd": 14000.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-002"
+      ]
+    },
+    {
+      "id": "asset-073",
+      "name": "crm-073",
+      "domain": "crm",
+      "owner": "owner-03",
+      "legal_entity": "newco-uk",
+      "business_capability": "customer-service",
+      "criticality": "standard",
+      "annual_cost_usd": 24000.0,
+      "standalone_cost_usd": 18800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-003"
+      ]
+    },
+    {
+      "id": "asset-074",
+      "name": "data-074",
+      "domain": "data",
+      "owner": "owner-04",
+      "legal_entity": "newco-uk",
+      "business_capability": "reporting",
+      "criticality": "standard",
+      "annual_cost_usd": 30000.0,
+      "standalone_cost_usd": 23600.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-004"
+      ]
+    },
+    {
+      "id": "asset-075",
+      "name": "cloud-075",
+      "domain": "cloud",
+      "owner": "owner-05",
+      "legal_entity": "newco-eu",
+      "business_capability": "hosting",
+      "criticality": "standard",
+      "annual_cost_usd": 36000.0,
+      "standalone_cost_usd": 28400.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-005"
+      ]
+    },
+    {
+      "id": "asset-076",
+      "name": "endpoint-076",
+      "domain": "endpoint",
+      "owner": "owner-06",
+      "legal_entity": "newco-uk",
+      "business_capability": "workplace",
+      "criticality": "standard",
+      "annual_cost_usd": 42000.0,
+      "standalone_cost_usd": 33200.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-006"
+      ]
+    },
+    {
+      "id": "asset-077",
+      "name": "security-077",
+      "domain": "security",
+      "owner": "owner-07",
+      "legal_entity": "newco-uk",
+      "business_capability": "incident-response",
+      "criticality": "standard",
+      "annual_cost_usd": 48000.0,
+      "standalone_cost_usd": 38000.0,
+      "data_classification": "internal",
+      "shared_with_parent": true,
+      "day1_required": false,
+      "dependencies": [
+        "asset-007"
+      ]
+    },
+    {
+      "id": "asset-078",
+      "name": "collaboration-078",
+      "domain": "collaboration",
+      "owner": "owner-08",
+      "legal_entity": "newco-eu",
+      "business_capability": "communications",
+      "criticality": "standard",
+      "annual_cost_usd": 54000.0,
+      "standalone_cost_usd": 42800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-008"
+      ]
+    },
+    {
+      "id": "asset-079",
+      "name": "operations-079",
+      "domain": "operations",
+      "owner": "owner-09",
+      "legal_entity": "newco-uk",
+      "business_capability": "service-management",
+      "criticality": "standard",
+      "annual_cost_usd": 60000.0,
+      "standalone_cost_usd": 47600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-009"
+      ]
+    },
+    {
+      "id": "asset-080",
+      "name": "identity-080",
+      "domain": "identity",
+      "owner": "owner-10",
+      "legal_entity": "newco-uk",
+      "business_capability": "employee-access",
+      "criticality": "standard",
+      "annual_cost_usd": 18000.0,
+      "standalone_cost_usd": 14000.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-000"
+      ]
+    },
+    {
+      "id": "asset-081",
+      "name": "network-081",
+      "domain": "network",
+      "owner": "owner-11",
+      "legal_entity": "newco-eu",
+      "business_capability": "site-connectivity",
+      "criticality": "standard",
+      "annual_cost_usd": 24000.0,
+      "standalone_cost_usd": 18800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-001"
+      ]
+    },
+    {
+      "id": "asset-082",
+      "name": "erp-082",
+      "domain": "erp",
+      "owner": "owner-12",
+      "legal_entity": "newco-uk",
+      "business_capability": "order-to-cash",
+      "criticality": "standard",
+      "annual_cost_usd": 30000.0,
+      "standalone_cost_usd": 23600.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-002"
+      ]
+    },
+    {
+      "id": "asset-083",
+      "name": "crm-083",
+      "domain": "crm",
+      "owner": "owner-13",
+      "legal_entity": "newco-uk",
+      "business_capability": "customer-service",
+      "criticality": "standard",
+      "annual_cost_usd": 36000.0,
+      "standalone_cost_usd": 28400.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-003"
+      ]
+    },
+    {
+      "id": "asset-084",
+      "name": "data-084",
+      "domain": "data",
+      "owner": "owner-00",
+      "legal_entity": "newco-eu",
+      "business_capability": "reporting",
+      "criticality": "standard",
+      "annual_cost_usd": 42000.0,
+      "standalone_cost_usd": 33200.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-004"
+      ]
+    },
+    {
+      "id": "asset-085",
+      "name": "cloud-085",
+      "domain": "cloud",
+      "owner": "owner-01",
+      "legal_entity": "newco-uk",
+      "business_capability": "hosting",
+      "criticality": "critical",
+      "annual_cost_usd": 48000.0,
+      "standalone_cost_usd": 38000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-005"
+      ]
+    },
+    {
+      "id": "asset-086",
+      "name": "endpoint-086",
+      "domain": "endpoint",
+      "owner": "owner-02",
+      "legal_entity": "newco-uk",
+      "business_capability": "workplace",
+      "criticality": "standard",
+      "annual_cost_usd": 54000.0,
+      "standalone_cost_usd": 42800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-006"
+      ]
+    },
+    {
+      "id": "asset-087",
+      "name": "security-087",
+      "domain": "security",
+      "owner": "owner-03",
+      "legal_entity": "newco-eu",
+      "business_capability": "incident-response",
+      "criticality": "standard",
+      "annual_cost_usd": 60000.0,
+      "standalone_cost_usd": 47600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-007"
+      ]
+    },
+    {
+      "id": "asset-088",
+      "name": "collaboration-088",
+      "domain": "collaboration",
+      "owner": "owner-04",
+      "legal_entity": "newco-uk",
+      "business_capability": "communications",
+      "criticality": "standard",
+      "annual_cost_usd": 18000.0,
+      "standalone_cost_usd": 14000.0,
+      "data_classification": "internal",
+      "shared_with_parent": true,
+      "day1_required": false,
+      "dependencies": [
+        "asset-008"
+      ]
+    },
+    {
+      "id": "asset-089",
+      "name": "operations-089",
+      "domain": "operations",
+      "owner": "owner-05",
+      "legal_entity": "newco-uk",
+      "business_capability": "service-management",
+      "criticality": "standard",
+      "annual_cost_usd": 24000.0,
+      "standalone_cost_usd": 18800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-009"
+      ]
+    },
+    {
+      "id": "asset-090",
+      "name": "identity-090",
+      "domain": "identity",
+      "owner": "owner-06",
+      "legal_entity": "newco-eu",
+      "business_capability": "employee-access",
+      "criticality": "standard",
+      "annual_cost_usd": 30000.0,
+      "standalone_cost_usd": 23600.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-000"
+      ]
+    },
+    {
+      "id": "asset-091",
+      "name": "network-091",
+      "domain": "network",
+      "owner": "owner-07",
+      "legal_entity": "newco-uk",
+      "business_capability": "site-connectivity",
+      "criticality": "standard",
+      "annual_cost_usd": 36000.0,
+      "standalone_cost_usd": 28400.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-001"
+      ]
+    },
+    {
+      "id": "asset-092",
+      "name": "erp-092",
+      "domain": "erp",
+      "owner": "owner-08",
+      "legal_entity": "newco-uk",
+      "business_capability": "order-to-cash",
+      "criticality": "standard",
+      "annual_cost_usd": 42000.0,
+      "standalone_cost_usd": 33200.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-002"
+      ]
+    },
+    {
+      "id": "asset-093",
+      "name": "crm-093",
+      "domain": "crm",
+      "owner": "owner-09",
+      "legal_entity": "newco-eu",
+      "business_capability": "customer-service",
+      "criticality": "standard",
+      "annual_cost_usd": 48000.0,
+      "standalone_cost_usd": 38000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-003"
+      ]
+    },
+    {
+      "id": "asset-094",
+      "name": "data-094",
+      "domain": "data",
+      "owner": "owner-10",
+      "legal_entity": "newco-uk",
+      "business_capability": "reporting",
+      "criticality": "standard",
+      "annual_cost_usd": 54000.0,
+      "standalone_cost_usd": 42800.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-004"
+      ]
+    },
+    {
+      "id": "asset-095",
+      "name": "cloud-095",
+      "domain": "cloud",
+      "owner": "owner-11",
+      "legal_entity": "newco-uk",
+      "business_capability": "hosting",
+      "criticality": "standard",
+      "annual_cost_usd": 60000.0,
+      "standalone_cost_usd": 47600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-005"
+      ]
+    },
+    {
+      "id": "asset-096",
+      "name": "endpoint-096",
+      "domain": "endpoint",
+      "owner": "owner-12",
+      "legal_entity": "newco-eu",
+      "business_capability": "workplace",
+      "criticality": "standard",
+      "annual_cost_usd": 18000.0,
+      "standalone_cost_usd": 14000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-006"
+      ]
+    },
+    {
+      "id": "asset-097",
+      "name": "security-097",
+      "domain": "security",
+      "owner": "owner-13",
+      "legal_entity": "newco-uk",
+      "business_capability": "incident-response",
+      "criticality": "standard",
+      "annual_cost_usd": 24000.0,
+      "standalone_cost_usd": 18800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-007"
+      ]
+    },
+    {
+      "id": "asset-098",
+      "name": "collaboration-098",
+      "domain": "collaboration",
+      "owner": "owner-00",
+      "legal_entity": "newco-uk",
+      "business_capability": "communications",
+      "criticality": "standard",
+      "annual_cost_usd": 30000.0,
+      "standalone_cost_usd": 23600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-008"
+      ]
+    },
+    {
+      "id": "asset-099",
+      "name": "operations-099",
+      "domain": "operations",
+      "owner": "owner-01",
+      "legal_entity": "newco-eu",
+      "business_capability": "service-management",
+      "criticality": "standard",
+      "annual_cost_usd": 36000.0,
+      "standalone_cost_usd": 28400.0,
+      "data_classification": "internal",
+      "shared_with_parent": true,
+      "day1_required": false,
+      "dependencies": [
+        "asset-009"
+      ]
+    },
+    {
+      "id": "asset-100",
+      "name": "identity-100",
+      "domain": "identity",
+      "owner": "owner-02",
+      "legal_entity": "newco-uk",
+      "business_capability": "employee-access",
+      "criticality": "standard",
+      "annual_cost_usd": 42000.0,
+      "standalone_cost_usd": 33200.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-000"
+      ]
+    },
+    {
+      "id": "asset-101",
+      "name": "network-101",
+      "domain": "network",
+      "owner": "owner-03",
+      "legal_entity": "newco-uk",
+      "business_capability": "site-connectivity",
+      "criticality": "standard",
+      "annual_cost_usd": 48000.0,
+      "standalone_cost_usd": 38000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-001"
+      ]
+    },
+    {
+      "id": "asset-102",
+      "name": "erp-102",
+      "domain": "erp",
+      "owner": "owner-04",
+      "legal_entity": "newco-eu",
+      "business_capability": "order-to-cash",
+      "criticality": "critical",
+      "annual_cost_usd": 54000.0,
+      "standalone_cost_usd": 42800.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-002"
+      ]
+    },
+    {
+      "id": "asset-103",
+      "name": "crm-103",
+      "domain": "crm",
+      "owner": "owner-05",
+      "legal_entity": "newco-uk",
+      "business_capability": "customer-service",
+      "criticality": "standard",
+      "annual_cost_usd": 60000.0,
+      "standalone_cost_usd": 47600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-003"
+      ]
+    },
+    {
+      "id": "asset-104",
+      "name": "data-104",
+      "domain": "data",
+      "owner": "owner-06",
+      "legal_entity": "newco-uk",
+      "business_capability": "reporting",
+      "criticality": "standard",
+      "annual_cost_usd": 18000.0,
+      "standalone_cost_usd": 14000.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-004"
+      ]
+    },
+    {
+      "id": "asset-105",
+      "name": "cloud-105",
+      "domain": "cloud",
+      "owner": "owner-07",
+      "legal_entity": "newco-eu",
+      "business_capability": "hosting",
+      "criticality": "standard",
+      "annual_cost_usd": 24000.0,
+      "standalone_cost_usd": 18800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-005"
+      ]
+    },
+    {
+      "id": "asset-106",
+      "name": "endpoint-106",
+      "domain": "endpoint",
+      "owner": "owner-08",
+      "legal_entity": "newco-uk",
+      "business_capability": "workplace",
+      "criticality": "standard",
+      "annual_cost_usd": 30000.0,
+      "standalone_cost_usd": 23600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-006"
+      ]
+    },
+    {
+      "id": "asset-107",
+      "name": "security-107",
+      "domain": "security",
+      "owner": "owner-09",
+      "legal_entity": "newco-uk",
+      "business_capability": "incident-response",
+      "criticality": "standard",
+      "annual_cost_usd": 36000.0,
+      "standalone_cost_usd": 28400.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-007"
+      ]
+    },
+    {
+      "id": "asset-108",
+      "name": "collaboration-108",
+      "domain": "collaboration",
+      "owner": "owner-10",
+      "legal_entity": "newco-eu",
+      "business_capability": "communications",
+      "criticality": "standard",
+      "annual_cost_usd": 42000.0,
+      "standalone_cost_usd": 33200.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-008"
+      ]
+    },
+    {
+      "id": "asset-109",
+      "name": "operations-109",
+      "domain": "operations",
+      "owner": "owner-11",
+      "legal_entity": "newco-uk",
+      "business_capability": "service-management",
+      "criticality": "standard",
+      "annual_cost_usd": 48000.0,
+      "standalone_cost_usd": 38000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-009"
+      ]
+    },
+    {
+      "id": "asset-110",
+      "name": "identity-110",
+      "domain": "identity",
+      "owner": "owner-12",
+      "legal_entity": "newco-uk",
+      "business_capability": "employee-access",
+      "criticality": "standard",
+      "annual_cost_usd": 54000.0,
+      "standalone_cost_usd": 42800.0,
+      "data_classification": "restricted",
+      "shared_with_parent": true,
+      "day1_required": false,
+      "dependencies": [
+        "asset-000"
+      ]
+    },
+    {
+      "id": "asset-111",
+      "name": "network-111",
+      "domain": "network",
+      "owner": "owner-13",
+      "legal_entity": "newco-eu",
+      "business_capability": "site-connectivity",
+      "criticality": "standard",
+      "annual_cost_usd": 60000.0,
+      "standalone_cost_usd": 47600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-001"
+      ]
+    },
+    {
+      "id": "asset-112",
+      "name": "erp-112",
+      "domain": "erp",
+      "owner": "owner-00",
+      "legal_entity": "newco-uk",
+      "business_capability": "order-to-cash",
+      "criticality": "standard",
+      "annual_cost_usd": 18000.0,
+      "standalone_cost_usd": 14000.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-002"
+      ]
+    },
+    {
+      "id": "asset-113",
+      "name": "crm-113",
+      "domain": "crm",
+      "owner": "owner-01",
+      "legal_entity": "newco-uk",
+      "business_capability": "customer-service",
+      "criticality": "standard",
+      "annual_cost_usd": 24000.0,
+      "standalone_cost_usd": 18800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-003"
+      ]
+    },
+    {
+      "id": "asset-114",
+      "name": "data-114",
+      "domain": "data",
+      "owner": "owner-02",
+      "legal_entity": "newco-eu",
+      "business_capability": "reporting",
+      "criticality": "standard",
+      "annual_cost_usd": 30000.0,
+      "standalone_cost_usd": 23600.0,
+      "data_classification": "restricted",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-004"
+      ]
+    },
+    {
+      "id": "asset-115",
+      "name": "cloud-115",
+      "domain": "cloud",
+      "owner": "owner-03",
+      "legal_entity": "newco-uk",
+      "business_capability": "hosting",
+      "criticality": "standard",
+      "annual_cost_usd": 36000.0,
+      "standalone_cost_usd": 28400.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-005"
+      ]
+    },
+    {
+      "id": "asset-116",
+      "name": "endpoint-116",
+      "domain": "endpoint",
+      "owner": "owner-04",
+      "legal_entity": "newco-uk",
+      "business_capability": "workplace",
+      "criticality": "standard",
+      "annual_cost_usd": 42000.0,
+      "standalone_cost_usd": 33200.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-006"
+      ]
+    },
+    {
+      "id": "asset-117",
+      "name": "security-117",
+      "domain": "security",
+      "owner": "owner-05",
+      "legal_entity": "newco-eu",
+      "business_capability": "incident-response",
+      "criticality": "standard",
+      "annual_cost_usd": 48000.0,
+      "standalone_cost_usd": 38000.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-007"
+      ]
+    },
+    {
+      "id": "asset-118",
+      "name": "collaboration-118",
+      "domain": "collaboration",
+      "owner": "owner-06",
+      "legal_entity": "newco-uk",
+      "business_capability": "communications",
+      "criticality": "standard",
+      "annual_cost_usd": 54000.0,
+      "standalone_cost_usd": 42800.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-008"
+      ]
+    },
+    {
+      "id": "asset-119",
+      "name": "operations-119",
+      "domain": "operations",
+      "owner": "owner-07",
+      "legal_entity": "newco-uk",
+      "business_capability": "service-management",
+      "criticality": "critical",
+      "annual_cost_usd": 60000.0,
+      "standalone_cost_usd": 47600.0,
+      "data_classification": "internal",
+      "shared_with_parent": false,
+      "day1_required": false,
+      "dependencies": [
+        "asset-009"
+      ]
+    }
+  ],
+  "tsa_services": [
+    {
+      "id": "tsa-00",
+      "name": "identity-transition-service",
+      "monthly_charge_usd": 12000.0,
+      "extension_penalty_usd": 9000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 7,
+      "dependency_assets": [
+        "asset-000"
+      ],
+      "acceptance_criteria_met": false,
+      "owner": "workstream-0"
+    },
+    {
+      "id": "tsa-01",
+      "name": "network-transition-service",
+      "monthly_charge_usd": 16000.0,
+      "extension_penalty_usd": 12000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 8,
+      "dependency_assets": [
+        "asset-001"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-1"
+    },
+    {
+      "id": "tsa-02",
+      "name": "erp-transition-service",
+      "monthly_charge_usd": 20000.0,
+      "extension_penalty_usd": 15000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 9,
+      "dependency_assets": [
+        "asset-002"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-2"
+    },
+    {
+      "id": "tsa-03",
+      "name": "crm-transition-service",
+      "monthly_charge_usd": 24000.0,
+      "extension_penalty_usd": 18000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 10,
+      "dependency_assets": [
+        "asset-003"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-3"
+    },
+    {
+      "id": "tsa-04",
+      "name": "data-transition-service",
+      "monthly_charge_usd": 28000.0,
+      "extension_penalty_usd": 9000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 7,
+      "dependency_assets": [
+        "asset-004"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-4"
+    },
+    {
+      "id": "tsa-05",
+      "name": "cloud-transition-service",
+      "monthly_charge_usd": 32000.0,
+      "extension_penalty_usd": 12000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 8,
+      "dependency_assets": [
+        "asset-005"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-5"
+    },
+    {
+      "id": "tsa-06",
+      "name": "endpoint-transition-service",
+      "monthly_charge_usd": 12000.0,
+      "extension_penalty_usd": 15000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 9,
+      "dependency_assets": [
+        "asset-006"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-6"
+    },
+    {
+      "id": "tsa-07",
+      "name": "security-transition-service",
+      "monthly_charge_usd": 16000.0,
+      "extension_penalty_usd": 18000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 10,
+      "dependency_assets": [
+        "asset-007"
+      ],
+      "acceptance_criteria_met": false,
+      "owner": "workstream-7"
+    },
+    {
+      "id": "tsa-08",
+      "name": "collaboration-transition-service",
+      "monthly_charge_usd": 20000.0,
+      "extension_penalty_usd": 9000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 7,
+      "dependency_assets": [
+        "asset-008"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-0"
+    },
+    {
+      "id": "tsa-09",
+      "name": "operations-transition-service",
+      "monthly_charge_usd": 24000.0,
+      "extension_penalty_usd": 12000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 8,
+      "dependency_assets": [
+        "asset-009"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-1"
+    },
+    {
+      "id": "tsa-10",
+      "name": "identity-transition-service",
+      "monthly_charge_usd": 28000.0,
+      "extension_penalty_usd": 15000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 9,
+      "dependency_assets": [
+        "asset-010"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-2"
+    },
+    {
+      "id": "tsa-11",
+      "name": "network-transition-service",
+      "monthly_charge_usd": 32000.0,
+      "extension_penalty_usd": 18000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 10,
+      "dependency_assets": [
+        "asset-011"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-3"
+    },
+    {
+      "id": "tsa-12",
+      "name": "erp-transition-service",
+      "monthly_charge_usd": 12000.0,
+      "extension_penalty_usd": 9000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 7,
+      "dependency_assets": [
+        "asset-012"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-4"
+    },
+    {
+      "id": "tsa-13",
+      "name": "crm-transition-service",
+      "monthly_charge_usd": 16000.0,
+      "extension_penalty_usd": 12000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 8,
+      "dependency_assets": [
+        "asset-013"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-5"
+    },
+    {
+      "id": "tsa-14",
+      "name": "data-transition-service",
+      "monthly_charge_usd": 20000.0,
+      "extension_penalty_usd": 15000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 9,
+      "dependency_assets": [
+        "asset-014"
+      ],
+      "acceptance_criteria_met": false,
+      "owner": "workstream-6"
+    },
+    {
+      "id": "tsa-15",
+      "name": "cloud-transition-service",
+      "monthly_charge_usd": 24000.0,
+      "extension_penalty_usd": 18000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 10,
+      "dependency_assets": [
+        "asset-015"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-7"
+    },
+    {
+      "id": "tsa-16",
+      "name": "endpoint-transition-service",
+      "monthly_charge_usd": 28000.0,
+      "extension_penalty_usd": 9000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 7,
+      "dependency_assets": [
+        "asset-016"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-0"
+    },
+    {
+      "id": "tsa-17",
+      "name": "security-transition-service",
+      "monthly_charge_usd": 32000.0,
+      "extension_penalty_usd": 12000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 8,
+      "dependency_assets": [
+        "asset-017"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-1"
+    },
+    {
+      "id": "tsa-18",
+      "name": "collaboration-transition-service",
+      "monthly_charge_usd": 12000.0,
+      "extension_penalty_usd": 15000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 9,
+      "dependency_assets": [
+        "asset-018"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-2"
+    },
+    {
+      "id": "tsa-19",
+      "name": "operations-transition-service",
+      "monthly_charge_usd": 16000.0,
+      "extension_penalty_usd": 18000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 10,
+      "dependency_assets": [
+        "asset-019"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-3"
+    },
+    {
+      "id": "tsa-20",
+      "name": "identity-transition-service",
+      "monthly_charge_usd": 20000.0,
+      "extension_penalty_usd": 9000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 7,
+      "dependency_assets": [
+        "asset-020"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-4"
+    },
+    {
+      "id": "tsa-21",
+      "name": "network-transition-service",
+      "monthly_charge_usd": 24000.0,
+      "extension_penalty_usd": 12000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 8,
+      "dependency_assets": [
+        "asset-021"
+      ],
+      "acceptance_criteria_met": false,
+      "owner": "workstream-5"
+    },
+    {
+      "id": "tsa-22",
+      "name": "erp-transition-service",
+      "monthly_charge_usd": 28000.0,
+      "extension_penalty_usd": 15000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 9,
+      "dependency_assets": [
+        "asset-022"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-6"
+    },
+    {
+      "id": "tsa-23",
+      "name": "crm-transition-service",
+      "monthly_charge_usd": 32000.0,
+      "extension_penalty_usd": 18000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 10,
+      "dependency_assets": [
+        "asset-023"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-7"
+    },
+    {
+      "id": "tsa-24",
+      "name": "data-transition-service",
+      "monthly_charge_usd": 12000.0,
+      "extension_penalty_usd": 9000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 7,
+      "dependency_assets": [
+        "asset-024"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-0"
+    },
+    {
+      "id": "tsa-25",
+      "name": "cloud-transition-service",
+      "monthly_charge_usd": 16000.0,
+      "extension_penalty_usd": 12000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 8,
+      "dependency_assets": [
+        "asset-000"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-1"
+    },
+    {
+      "id": "tsa-26",
+      "name": "endpoint-transition-service",
+      "monthly_charge_usd": 20000.0,
+      "extension_penalty_usd": 15000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 9,
+      "dependency_assets": [
+        "asset-001"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-2"
+    },
+    {
+      "id": "tsa-27",
+      "name": "security-transition-service",
+      "monthly_charge_usd": 24000.0,
+      "extension_penalty_usd": 18000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 10,
+      "dependency_assets": [
+        "asset-002"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-3"
+    },
+    {
+      "id": "tsa-28",
+      "name": "collaboration-transition-service",
+      "monthly_charge_usd": 28000.0,
+      "extension_penalty_usd": 9000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 7,
+      "dependency_assets": [
+        "asset-003"
+      ],
+      "acceptance_criteria_met": false,
+      "owner": "workstream-4"
+    },
+    {
+      "id": "tsa-29",
+      "name": "operations-transition-service",
+      "monthly_charge_usd": 32000.0,
+      "extension_penalty_usd": 12000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 8,
+      "dependency_assets": [
+        "asset-004"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-5"
+    },
+    {
+      "id": "tsa-30",
+      "name": "identity-transition-service",
+      "monthly_charge_usd": 12000.0,
+      "extension_penalty_usd": 15000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 9,
+      "dependency_assets": [
+        "asset-005"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-6"
+    },
+    {
+      "id": "tsa-31",
+      "name": "network-transition-service",
+      "monthly_charge_usd": 16000.0,
+      "extension_penalty_usd": 18000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 10,
+      "dependency_assets": [
+        "asset-006"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-7"
+    },
+    {
+      "id": "tsa-32",
+      "name": "erp-transition-service",
+      "monthly_charge_usd": 20000.0,
+      "extension_penalty_usd": 9000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 7,
+      "dependency_assets": [
+        "asset-007"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-0"
+    },
+    {
+      "id": "tsa-33",
+      "name": "crm-transition-service",
+      "monthly_charge_usd": 24000.0,
+      "extension_penalty_usd": 12000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 8,
+      "dependency_assets": [
+        "asset-008"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-1"
+    },
+    {
+      "id": "tsa-34",
+      "name": "data-transition-service",
+      "monthly_charge_usd": 28000.0,
+      "extension_penalty_usd": 15000.0,
+      "deadline_month": 9,
+      "forecast_exit_month": 9,
+      "dependency_assets": [
+        "asset-009"
+      ],
+      "acceptance_criteria_met": true,
+      "owner": "workstream-2"
+    }
+  ],
+  "identity_findings": [
+    {
+      "principal": "principal-000",
+      "system": "entra",
+      "finding_type": "shared-access",
+      "privileged": true,
+      "former_parent_access": true,
+      "owner_confirmed": false
+    },
+    {
+      "principal": "principal-001",
+      "system": "aws",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-002",
+      "system": "github",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-003",
+      "system": "sap",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-004",
+      "system": "salesforce",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": true,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-005",
+      "system": "entra",
+      "finding_type": "shared-access",
+      "privileged": true,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-006",
+      "system": "aws",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": false
+    },
+    {
+      "principal": "principal-007",
+      "system": "github",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-008",
+      "system": "sap",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": true,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-009",
+      "system": "salesforce",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-010",
+      "system": "entra",
+      "finding_type": "shared-access",
+      "privileged": true,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-011",
+      "system": "aws",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-012",
+      "system": "github",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": true,
+      "owner_confirmed": false
+    },
+    {
+      "principal": "principal-013",
+      "system": "sap",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-014",
+      "system": "salesforce",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-015",
+      "system": "entra",
+      "finding_type": "shared-access",
+      "privileged": true,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-016",
+      "system": "aws",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": true,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-017",
+      "system": "github",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-018",
+      "system": "sap",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": false
+    },
+    {
+      "principal": "principal-019",
+      "system": "salesforce",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-020",
+      "system": "entra",
+      "finding_type": "shared-access",
+      "privileged": true,
+      "former_parent_access": true,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-021",
+      "system": "aws",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-022",
+      "system": "github",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-023",
+      "system": "sap",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-024",
+      "system": "salesforce",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": true,
+      "owner_confirmed": false
+    },
+    {
+      "principal": "principal-025",
+      "system": "entra",
+      "finding_type": "shared-access",
+      "privileged": true,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-026",
+      "system": "aws",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-027",
+      "system": "github",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-028",
+      "system": "sap",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": true,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-029",
+      "system": "salesforce",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-030",
+      "system": "entra",
+      "finding_type": "shared-access",
+      "privileged": true,
+      "former_parent_access": false,
+      "owner_confirmed": false
+    },
+    {
+      "principal": "principal-031",
+      "system": "aws",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-032",
+      "system": "github",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": true,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-033",
+      "system": "sap",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-034",
+      "system": "salesforce",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-035",
+      "system": "entra",
+      "finding_type": "shared-access",
+      "privileged": true,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-036",
+      "system": "aws",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": true,
+      "owner_confirmed": false
+    },
+    {
+      "principal": "principal-037",
+      "system": "github",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-038",
+      "system": "sap",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    },
+    {
+      "principal": "principal-039",
+      "system": "salesforce",
+      "finding_type": "shared-access",
+      "privileged": false,
+      "former_parent_access": false,
+      "owner_confirmed": true
+    }
+  ],
+  "costs": {
+    "purchase_case_synergy_usd": 2400000.0,
+    "one_time_program_cost_usd": 3800000.0,
+    "annual_parent_run_cost_usd": 7200000.0,
+    "annual_standalone_shared_cost_usd": 1500000.0,
+    "disruption_contingency_usd": 650000.0
+  },
+  "evidence_ready": [
+    "asset-000",
+    "asset-001",
+    "asset-003",
+    "asset-004",
+    "asset-005",
+    "asset-007",
+    "asset-008",
+    "asset-009",
+    "asset-010",
+    "asset-011",
+    "asset-012",
+    "asset-013",
+    "asset-014",
+    "asset-015",
+    "asset-016",
+    "asset-017",
+    "asset-018",
+    "asset-020",
+    "asset-021",
+    "asset-022",
+    "asset-023",
+    "asset-024",
+    "asset-025",
+    "asset-026",
+    "asset-027",
+    "asset-028",
+    "asset-029",
+    "asset-030",
+    "asset-031",
+    "asset-032",
+    "asset-033",
+    "asset-034",
+    "asset-035",
+    "asset-036",
+    "asset-037",
+    "asset-038",
+    "asset-039",
+    "asset-040",
+    "asset-041",
+    "asset-042",
+    "asset-043",
+    "asset-045",
+    "asset-046",
+    "asset-047",
+    "asset-048",
+    "asset-049",
+    "asset-050",
+    "asset-051",
+    "asset-052",
+    "asset-053",
+    "asset-054",
+    "asset-055",
+    "asset-056",
+    "asset-057",
+    "asset-058",
+    "asset-059",
+    "asset-060",
+    "asset-061",
+    "asset-062",
+    "asset-063",
+    "asset-064",
+    "asset-065",
+    "asset-066",
+    "asset-067",
+    "asset-068",
+    "asset-069",
+    "asset-070",
+    "asset-071",
+    "asset-072",
+    "asset-073",
+    "asset-074",
+    "asset-075",
+    "asset-076",
+    "asset-078",
+    "asset-079",
+    "asset-080",
+    "asset-081",
+    "asset-082",
+    "asset-083",
+    "asset-084",
+    "asset-085",
+    "asset-086",
+    "asset-087",
+    "asset-088",
+    "asset-089",
+    "asset-090",
+    "asset-091",
+    "asset-092",
+    "asset-093",
+    "asset-094",
+    "asset-095",
+    "asset-096",
+    "asset-097",
+    "asset-098",
+    "asset-099",
+    "asset-100",
+    "asset-101",
+    "asset-102",
+    "asset-103",
+    "asset-104",
+    "asset-105",
+    "asset-106",
+    "asset-107",
+    "asset-108",
+    "asset-109",
+    "asset-110",
+    "asset-111",
+    "asset-112",
+    "asset-113",
+    "asset-114",
+    "asset-115",
+    "asset-116",
+    "asset-117",
+    "asset-118",
+    "asset-119"
+  ]
+}
