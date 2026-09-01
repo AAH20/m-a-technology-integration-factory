@@ -2,7 +2,7 @@
 
 **M&A IT integration and carve-out execution: technology due diligence, Day-1 readiness, TSA exit, cloud and identity separation, deal economics and synergy realization.**
 
-[![CI](https://github.com/AAH20/m-and-a-technology-integration-factory/actions/workflows/ci.yml/badge.svg)](https://github.com/AAH20/m-and-a-technology-integration-factory/actions/workflows/ci.yml)
+[![CI](https://github.com/AAH20/m-a-technology-integration-factory/actions/workflows/ci.yml/badge.svg)](https://github.com/AAH20/m-a-technology-integration-factory/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue)](pyproject.toml)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
@@ -120,4 +120,3 @@ M&A IT integration, post-merger integration, IT carve-out, technology due dilige
 Planning an acquisition, divestiture, carve-out or TSA exit?
 
 [Request a technology transaction architecture review](https://a2zsoc.com/contact?topic=ma-technology-integration&utm_source=github&utm_medium=repository).
-
